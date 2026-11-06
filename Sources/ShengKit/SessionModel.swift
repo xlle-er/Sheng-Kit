@@ -10,6 +10,8 @@ public final class SessionModel: ObservableObject {
     public let product: Product
     public let engine = Engine()
     public let store: PrivateStore
+    /// Release updates for the running app; inactive when its Info.plist names no update source.
+    public let updater: AppUpdater
     @Published var appleResources: AppleResourceReport?
     let healthTracker = CaptureHealthTracker()
     @Published public var captureHealth: [CaptureHealthSnapshot] = []
@@ -87,6 +89,7 @@ public final class SessionModel: ObservableObject {
     var isStopping = false
     public init(product: Product, store: PrivateStore) {
         self.product = product; self.store = store
+        updater = AppUpdater(root: store.root)
         L10n.use(product: product)
         do { profiles = try store.loadProfiles(); selectedProfile = profiles.first?.id ?? UUID() }
         catch { self.error = L10n.text("配置读取失败，请重试。") }

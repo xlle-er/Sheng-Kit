@@ -58,6 +58,7 @@ public struct SessionView: View {
     }
 
     private func appear() {
+        model.updater.checkIfDue()
         showingGuide = !model.guideCompleted
         if !loadedDraft { serviceDraft = model.selectedService ?? ServiceProfile(); loadedDraft = true }
         let opener = openWindow
@@ -98,6 +99,7 @@ public struct SessionView: View {
             nav("appearance", "字幕与浮窗", "slider.horizontal.3")
             nav("history", "会话记录", "clock.arrow.circlepath")
             Spacer(minLength: 0)
+            UpdateBadge(updater: model.updater) { navigation.page = "general" }
             nav("general", "通用", "gearshape")
             nav("diagnostics", "诊断与帮助", "stethoscope")
         }

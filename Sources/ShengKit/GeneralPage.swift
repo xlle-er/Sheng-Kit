@@ -35,7 +35,7 @@ struct GeneralPage: View {
                 storage
                 SettingsGroup("关于") {
                     SettingRow("版本") { Text(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "—").foregroundStyle(.secondary) }
-                    SettingRow("软件更新", detail: "当前版本未配置更新渠道") { EmptyView() }
+                    UpdateSettings(updater: model.updater, sessionActive: model.active)
                     SettingRow("入门指南") { Button("重新查看") { showGuide = true }.buttonStyle(BorderedButtonStyle()) }
                 }
             }
