@@ -38,11 +38,7 @@ import AppKit
         state = .checking
         task = Task {
             do {
-                var request = URLRequest(url: configuration.latestReleaseURL, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 20)
-                request.setValue("application/vnd.github+json", forHTTPHeaderField: "Accept")
-                let (data, response): (Data, URLResponse)
-                do { (data, response) = try await URLSession.shared.data(for: request) } catch { throw UpdateError.network }
-                guard (response as? HTTPURLResponse)?.statusCode == 200 else { throw UpdateError.network }
+                let data = try await UpdateInstaller.download(configuration.manifestURL, limit: 64 * 1024)
                 let release = try UpdateRelease.decode(data, repository: configuration.repository)
                 lastCheck = Date(); save()
                 state = configuration.currentVersion < release.version ? .available(release) : .upToDate

@@ -5,11 +5,9 @@ import CryptoKit
 final class UpdateTests: XCTestCase {
     private let repository = "owner/App-macos"
 
-    private func releaseJSON(tag: String = "v1.2.0", assets: [(String, String)]) -> Data {
-        let list = assets.map { #"{"name":"\#($0.0)","browser_download_url":"\#($0.1)","size":1000}"# }.joined(separator: ",")
-        return Data(#"{"tag_name":"\#(tag)","name":"App \#(tag)","body":"Fixes","html_url":"https://github.com/owner/App-macos/releases/tag/\#(tag)","draft":false,"prerelease":false,"assets":[\#(list)]}"#.utf8)
+    private func manifest(version: String = "1.2.0", archive: String = "App-1.2.0.zip", size: Int = 1000) -> Data {
+        Data(#"{"version":"\#(version)","archive":"\#(archive)","size":\#(size),"notes":"Fixes"}"#.utf8)
     }
-    private func url(_ name: String) -> String { "https://github.com/\(repository)/releases/download/v1.2.0/\(name)" }
 
     func testVersionsCompareNumerically() {
         XCTAssertEqual(AppVersion("v1.10.0"), AppVersion("1.10"))
@@ -19,30 +17,32 @@ final class UpdateTests: XCTestCase {
         XCTAssertNil(AppVersion("1.0-beta"))
     }
 
-    func testReleasePicksSignedZip() throws {
-        let data = releaseJSON(assets: [("App-1.2.0.zip", url("App-1.2.0.zip")), ("App-1.2.0.zip.sig", url("App-1.2.0.zip.sig")), ("notes.txt", url("notes.txt"))])
-        let release = try UpdateRelease.decode(data, repository: repository)
+    func testManifestPointsAtSignedArchiveInTheRelease() throws {
+        let release = try UpdateRelease.decode(manifest(), repository: repository)
         XCTAssertEqual(release.version, AppVersion("1.2.0"))
-        XCTAssertEqual(release.archive.lastPathComponent, "App-1.2.0.zip")
-        XCTAssertEqual(release.signature.lastPathComponent, "App-1.2.0.zip.sig")
+        XCTAssertEqual(release.archive.absoluteString, "https://github.com/\(repository)/releases/download/v1.2.0/App-1.2.0.zip")
+        XCTAssertEqual(release.signature.absoluteString, "https://github.com/\(repository)/releases/download/v1.2.0/App-1.2.0.zip.sig")
+        XCTAssertEqual(release.page?.absoluteString, "https://github.com/\(repository)/releases/tag/v1.2.0")
         XCTAssertEqual(release.notes, "Fixes")
     }
 
-    func testReleaseWithoutSignatureIsRejected() {
-        let data = releaseJSON(assets: [("App-1.2.0.zip", url("App-1.2.0.zip"))])
-        XCTAssertThrowsError(try UpdateRelease.decode(data, repository: repository))
+    func testManifestURLAvoidsTheRateLimitedAPI() {
+        let key = Curve25519.Signing.PrivateKey().publicKey.rawRepresentation.base64EncodedString()
+        let configuration = UpdateConfiguration(info: ["ShengUpdateRepository": repository, "ShengUpdatePublicKey": key, "CFBundleShortVersionString": "1.0.0"])
+        XCTAssertEqual(configuration?.manifestURL.absoluteString, "https://github.com/\(repository)/releases/latest/download/update.json")
     }
 
-    func testAssetsOutsideTheRepositoryAreRejected() {
-        let elsewhere = "https://example.com/App-1.2.0.zip"
-        let data = releaseJSON(assets: [("App-1.2.0.zip", elsewhere), ("App-1.2.0.zip.sig", url("App-1.2.0.zip.sig"))])
-        XCTAssertThrowsError(try UpdateRelease.decode(data, repository: repository))
-        let plain = releaseJSON(assets: [("App-1.2.0.zip", "http://github.com/\(repository)/releases/download/v1.2.0/App-1.2.0.zip"), ("App-1.2.0.zip.sig", url("App-1.2.0.zip.sig"))])
-        XCTAssertThrowsError(try UpdateRelease.decode(plain, repository: repository))
+    func testArchiveNamesThatEscapeTheReleaseAreRejected() {
+        for name in ["../evil.zip", "dir/App.zip", "App.tar.gz", "", "a b.zip"] {
+            XCTAssertThrowsError(try UpdateRelease.decode(manifest(archive: name), repository: repository), name)
+        }
     }
 
-    func testUnparseableTagIsRejected() {
-        XCTAssertThrowsError(try UpdateRelease.decode(releaseJSON(tag: "nightly", assets: []), repository: repository))
+    func testBadVersionOrSizeIsRejected() {
+        XCTAssertThrowsError(try UpdateRelease.decode(manifest(version: "nightly"), repository: repository))
+        XCTAssertThrowsError(try UpdateRelease.decode(manifest(size: 0), repository: repository))
+        XCTAssertThrowsError(try UpdateRelease.decode(manifest(size: 900_000_000), repository: repository))
+        XCTAssertThrowsError(try UpdateRelease.decode(Data("not json".utf8), repository: repository))
     }
 
     func testSignatureVerification() throws {

@@ -39,7 +39,9 @@ public struct UpdateConfiguration {
         bundleIdentifier = info["CFBundleIdentifier"] as? String ?? ""
     }
     public static var main: UpdateConfiguration? { UpdateConfiguration(info: Bundle.main.infoDictionary ?? [:]) }
-    var latestReleaseURL: URL { URL(string: "https://api.github.com/repos/\(repository)/releases/latest")! }
+    /// A small manifest attached to every release. GitHub redirects this link to the newest release's
+    /// copy without the API's per-address rate limit.
+    var manifestURL: URL { URL(string: "https://github.com/\(repository)/releases/latest/download/update.json")! }
     private static func isRepository(_ value: String) -> Bool {
         let parts = value.split(separator: "/", omittingEmptySubsequences: false)
         let allowed = CharacterSet.alphanumerics.union(CharacterSet(charactersIn: "-_."))
@@ -75,28 +77,25 @@ public struct UpdateRelease: Equatable {
     /// Archives above this are refused before downloading.
     static let sizeLimit: Int64 = 500 * 1024 * 1024
 
-    private struct Payload: Decodable {
-        struct Asset: Decodable { let name: String; let browser_download_url: String; let size: Int64 }
-        let tag_name: String; let name: String?; let body: String?; let html_url: String?
-        let draft: Bool?; let prerelease: Bool?; let assets: [Asset]
-    }
+    /// `update.json`: `{"version":"1.2.0","archive":"App-1.2.0.zip","size":123,"notes":"…"}`; the signature is `archive + ".sig"`.
+    private struct Manifest: Decodable { let version: String; let archive: String; let size: Int64; let notes: String? }
 
     static func decode(_ data: Data, repository: String) throws -> UpdateRelease {
-        guard let payload = try? JSONDecoder().decode(Payload.self, from: data), payload.draft != true, payload.prerelease != true,
-              let version = AppVersion(payload.tag_name) else { throw UpdateError.malformedRelease }
-        guard let zip = payload.assets.first(where: { $0.name.hasSuffix(".zip") }),
-              let sig = payload.assets.first(where: { $0.name == zip.name + ".sig" }) else { throw UpdateError.missingAsset }
-        guard let archive = trusted(zip.browser_download_url, repository: repository),
-              let signature = trusted(sig.browser_download_url, repository: repository) else { throw UpdateError.untrustedAsset }
-        guard zip.size > 0, zip.size <= sizeLimit else { throw UpdateError.tooLarge }
-        return UpdateRelease(version: version, title: payload.name ?? payload.tag_name, notes: payload.body ?? "",
-                             page: payload.html_url.flatMap(URL.init(string:)), archive: archive, signature: signature, archiveSize: zip.size)
+        guard let manifest = try? JSONDecoder().decode(Manifest.self, from: data),
+              let version = AppVersion(manifest.version) else { throw UpdateError.malformedRelease }
+        guard isPlainArchiveName(manifest.archive) else { throw UpdateError.untrustedAsset }
+        guard manifest.size > 0, manifest.size <= sizeLimit else { throw UpdateError.tooLarge }
+        let tag = "v" + version.description
+        let base = "https://github.com/\(repository)/releases"
+        guard let archive = URL(string: "\(base)/download/\(tag)/\(manifest.archive)"),
+              let signature = URL(string: "\(base)/download/\(tag)/\(manifest.archive).sig") else { throw UpdateError.untrustedAsset }
+        return UpdateRelease(version: version, title: tag, notes: manifest.notes ?? "", page: URL(string: "\(base)/tag/\(tag)"),
+                             archive: archive, signature: signature, archiveSize: manifest.size)
     }
-    /// Only HTTPS downloads from this repository's own release files are followed.
-    private static func trusted(_ text: String, repository: String) -> URL? {
-        guard let url = URL(string: text), url.scheme == "https", url.host == "github.com",
-              url.path.hasPrefix("/\(repository)/releases/download/") else { return nil }
-        return url
+    /// A single file name inside the release: letters, digits, `.-_`, ending in `.zip`.
+    private static func isPlainArchiveName(_ name: String) -> Bool {
+        let allowed = CharacterSet.alphanumerics.union(CharacterSet(charactersIn: "-_."))
+        return name.hasSuffix(".zip") && name.count > 4 && !name.hasPrefix(".") && name.unicodeScalars.allSatisfy(allowed.contains)
     }
 }
 
