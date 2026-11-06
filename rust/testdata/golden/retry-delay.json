@@ -1,0 +1,50 @@
+[
+  {
+    "attempt": 0,
+    "delayMs": 0
+  },
+  {
+    "attempt": 1,
+    "delayMs": 501
+  },
+  {
+    "attempt": 2,
+    "delayMs": 1184
+  },
+  {
+    "attempt": 3,
+    "delayMs": 2313
+  },
+  {
+    "attempt": 4,
+    "delayMs": -1
+  },
+  {
+    "attempt": 5,
+    "delayMs": -1
+  },
+  {
+    "attempt": 6,
+    "delayMs": -1
+  },
+  {
+    "attempt": 7,
+    "delayMs": -1
+  },
+  {
+    "attempt": 8,
+    "delayMs": -1
+  },
+  {
+    "attempt": 9,
+    "delayMs": -1
+  },
+  {
+    "attempt": 10,
+    "delayMs": -1
+  },
+  {
+    "attempt": 11,
+    "delayMs": -1
+  }
+]

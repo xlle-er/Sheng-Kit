@@ -1,0 +1,8 @@
+data: {"id":"c2","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"content":"Good"},"finish_reason":null}]}
+
+data: {"id":"c2","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"content":"Good morning"},"finish_reason":null}]}
+
+data: {"id":"c2","object":"chat.completion.chunk","choices":[{"index":0,"delta":{"content":"Good morning, everyone."},"finish_reason":"stop"}]}
+
+data: [DONE]
+

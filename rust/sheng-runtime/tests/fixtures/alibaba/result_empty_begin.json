@@ -1,0 +1,3 @@
+{"header": {"task_id": "task-1", "event": "result-generated", "attributes": {}},
+ "payload": {"output": {"sentence": {"sentence_id": 4, "begin_time": 1000, "end_time": null,
+   "text": "", "sentence_begin": true, "sentence_end": false, "words": []}}, "usage": null}}

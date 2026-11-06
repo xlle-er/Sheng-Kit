@@ -1,0 +1,2 @@
+{"header": {"task_id": "task-1", "event": "task-failed", "error_code": "ERROR_CODE",
+  "error_message": "service text that must not be surfaced", "attributes": {}}, "payload": {}}

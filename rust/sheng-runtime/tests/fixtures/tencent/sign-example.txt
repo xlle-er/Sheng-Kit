@@ -1,0 +1,1 @@
+asr.cloud.tencent.com/asr/speech_translate/125922***?expired=1673494772&nonce=1673408372&secretid=*****Qq1zhZMN8dv0******&source=zh&target=en&timestamp=1673408372&trans_model=hunyuan-translation-lite&voice_format=1&voice_id=c64385ee-3e5c-4fc5-bbfd-7c71addb35b0

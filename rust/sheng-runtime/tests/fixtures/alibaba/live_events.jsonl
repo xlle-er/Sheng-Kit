@@ -1,0 +1,7 @@
+{"event_id": "e1", "type": "conversation.item.input_audio_transcription.delta", "item_id": "item_src_1", "content_index": 0, "delta": "Guten "}
+{"event_id": "e2", "type": "conversation.item.input_audio_transcription.delta", "item_id": "item_src_1", "content_index": 0, "delta": "Morgen"}
+{"event_id": "e3", "type": "conversation.item.created", "previous_item_id": "item_src_1", "item": {"id": "item_tr_1", "type": "message", "object": "realtime.item", "status": "in_progress", "role": "assistant", "content": []}}
+{"event_id": "e4", "type": "response.text.delta", "response_id": "resp_1", "item_id": "item_tr_1", "output_index": 0, "content_index": 0, "delta": "Good "}
+{"event_id": "e5", "type": "response.text.delta", "response_id": "resp_1", "item_id": "item_tr_1", "output_index": 0, "content_index": 0, "delta": "morning"}
+{"event_id": "e6", "type": "response.text.done", "response_id": "resp_1", "item_id": "item_tr_1", "output_index": 0, "content_index": 0, "text": "Good morning"}
+{"event_id": "e7", "type": "conversation.item.input_audio_transcription.completed", "item_id": "item_src_1", "content_index": 0, "transcript": "Guten Morgen."}

@@ -1,0 +1,8 @@
+{"type":"session.created","event_id":"ev_1","session":{"id":"sess_x1","type":"translation","model":"gpt-realtime-translate","expires_at":1714857600,"audio":{"output":{"language":"fr"}}}}
+{"type":"session.updated","event_id":"ev_2","session":{"id":"sess_x1","type":"translation","model":"gpt-realtime-translate","expires_at":1714857600,"audio":{"output":{"language":"fr"}}}}
+{"type":"session.input_transcript.delta","event_id":"ev_3","delta":"The train","elapsed_ms":200}
+{"type":"session.output_audio.delta","event_id":"ev_4","delta":"AAAA","sample_rate":24000,"channels":1,"format":"pcm16","elapsed_ms":200}
+{"type":"session.output_transcript.delta","event_id":"ev_5","delta":"Le train","elapsed_ms":400}
+{"type":"session.input_transcript.delta","event_id":"ev_6","delta":" leaves at noon.","elapsed_ms":600}
+{"type":"session.output_transcript.delta","event_id":"ev_7","delta":" part à midi.","elapsed_ms":800}
+{"type":"session.closed","event_id":"ev_8"}

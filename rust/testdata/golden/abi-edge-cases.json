@@ -1,0 +1,75 @@
+{
+  "capabilitiesInvalid": {
+    "issues": [
+      {
+        "code": "invalid_configuration",
+        "field": "profile"
+      }
+    ],
+    "modes": [],
+    "sources": [],
+    "targets": []
+  },
+  "capabilitiesNull": {
+    "issues": [
+      {
+        "code": "invalid_configuration",
+        "field": "profile"
+      }
+    ],
+    "modes": [],
+    "sources": [],
+    "targets": []
+  },
+  "drainInvalidHandle": [],
+  "freshDrain": [],
+  "freshSnapshot": {
+    "diagnostics": [],
+    "echo": null,
+    "error": null,
+    "generation": 0,
+    "protocol": 1,
+    "recent": [],
+    "revision": 0,
+    "runId": "<uuid>",
+    "sampleRate": 16000,
+    "settled": true,
+    "status": "idle",
+    "tracks": []
+  },
+  "pollAfterCancel": {
+    "error": "invalid_operation",
+    "state": "failed"
+  },
+  "pollInvalidOperation": {
+    "error": "invalid_operation",
+    "state": "failed"
+  },
+  "probeInvalidJson": 0,
+  "probeNull": 0,
+  "pushInvalidSource": -1,
+  "pushNotRunning": -1,
+  "pushNull": -1,
+  "pushOddLength": -1,
+  "pushOversize": -1,
+  "resourcesNullLanguage": 0,
+  "resourcesUnknownKind": {
+    "error": "invalid_operation",
+    "state": "failed"
+  },
+  "snapshotInvalidHandle": {
+    "error": "invalid_handle"
+  },
+  "startInvalidHandle": {
+    "error": "invalid_handle",
+    "ok": false
+  },
+  "startInvalidJson": {
+    "error": "invalid_configuration",
+    "ok": false
+  },
+  "startNullRequest": {
+    "error": "invalid_request",
+    "ok": false
+  }
+}

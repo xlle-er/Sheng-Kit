@@ -1,0 +1,32 @@
+[package]
+name = "sheng-engine"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+publish = false
+description = "C ABI of the sheng engine: engine handles, sessions, async operations and catalogs"
+
+[lib]
+crate-type = ["staticlib", "rlib"]
+
+[features]
+# Lets tests install scripted service clients (never enabled in the shipped library).
+test-support = []
+
+[dependencies]
+sheng-core = { path = "../sheng-core" }
+sheng-runtime = { path = "../sheng-runtime" }
+serde = "1"
+serde_json = "1"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "time"] }
+uuid = { version = "1", features = ["v4"] }
+
+[dev-dependencies]
+sheng-engine = { path = ".", features = ["test-support"] }
+sheng-runtime = { path = "../sheng-runtime", features = ["test-support"] }
+serde_json = "1"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "time", "net"] }
+# Loopback realtime server for the Alibaba live-translation session test.
+futures-util = { version = "0.3", default-features = false, features = ["sink", "std"] }
+tokio-tungstenite = "0.28"
+url = "2"

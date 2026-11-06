@@ -1,0 +1,39 @@
+{
+  "presets": {
+    "count": 13,
+    "keys": [
+      "apiKeyUrl",
+      "endpoint",
+      "guideUrl",
+      "id",
+      "label",
+      "model",
+      "setupHelpKey",
+      "setupKind"
+    ]
+  },
+  "serviceIds": [
+    "alibabaCloud",
+    "openAIRealtime",
+    "googleGeminiLive",
+    "azureOpenAIRealtime",
+    "volcanoEngine",
+    "tencentCloud",
+    "baiduTranslate",
+    "xAIRealtime",
+    "deepL"
+  ],
+  "services": {
+    "count": 9,
+    "keys": [
+      "apiKeyUrl",
+      "guideUrl",
+      "id",
+      "label"
+    ]
+  },
+  "topLevelKeys": [
+    "presets",
+    "services"
+  ]
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "profileAccepted": false,
+    "provider": "appleSpeech",
+    "speechTranslationMode": "asrMt"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "appleSpeech",
+    "speechTranslationMode": "simultaneous"
+  },
+  {
+    "profileAccepted": false,
+    "provider": "alibabaCloud",
+    "speechTranslationMode": "asrMt"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "alibabaCloud",
+    "speechTranslationMode": "simultaneous"
+  },
+  {
+    "profileAccepted": false,
+    "provider": "volcanoEngine",
+    "speechTranslationMode": "asrMt"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "volcanoEngine",
+    "speechTranslationMode": "simultaneous"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "googleGeminiLive",
+    "speechTranslationMode": "asrMt"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "googleGeminiLive",
+    "speechTranslationMode": "simultaneous"
+  },
+  {
+    "profileAccepted": false,
+    "provider": "tencentCloud",
+    "speechTranslationMode": "asrMt"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "tencentCloud",
+    "speechTranslationMode": "simultaneous"
+  },
+  {
+    "profileAccepted": false,
+    "provider": "baiduTranslate",
+    "speechTranslationMode": "asrMt"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "baiduTranslate",
+    "speechTranslationMode": "simultaneous"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "openAIRealtime",
+    "speechTranslationMode": "asrMt"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "openAIRealtime",
+    "speechTranslationMode": "simultaneous"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "azureOpenAIRealtime",
+    "speechTranslationMode": "asrMt"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "azureOpenAIRealtime",
+    "speechTranslationMode": "simultaneous"
+  },
+  {
+    "profileAccepted": false,
+    "provider": "xAIRealtime",
+    "speechTranslationMode": "asrMt"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "xAIRealtime",
+    "speechTranslationMode": "simultaneous"
+  },
+  {
+    "profileAccepted": false,
+    "provider": "customDashScopeASR",
+    "speechTranslationMode": "asrMt"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "customDashScopeASR",
+    "speechTranslationMode": "simultaneous"
+  },
+  {
+    "profileAccepted": false,
+    "provider": "customOpenAIASR",
+    "speechTranslationMode": "asrMt"
+  },
+  {
+    "profileAccepted": true,
+    "provider": "customOpenAIASR",
+    "speechTranslationMode": "simultaneous"
+  }
+]

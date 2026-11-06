@@ -1,0 +1,9 @@
+{"type":"session.created","event_id":"ev_1","session":{"id":"sess_t1","type":"transcription"}}
+{"type":"session.updated","event_id":"ev_2","session":{"id":"sess_t1","type":"transcription"}}
+{"type":"input_audio_buffer.committed","event_id":"ev_3","previous_item_id":null,"item_id":"item_a"}
+{"type":"conversation.item.input_audio_transcription.delta","event_id":"ev_4","item_id":"item_a","content_index":0,"delta":"Good"}
+{"type":"conversation.item.input_audio_transcription.delta","event_id":"ev_5","item_id":"item_a","content_index":0,"delta":" morning,"}
+{"type":"conversation.item.input_audio_transcription.delta","event_id":"ev_6","item_id":"item_a","content_index":0,"delta":" everyone."}
+{"type":"conversation.item.input_audio_transcription.completed","event_id":"ev_7","item_id":"item_a","content_index":0,"transcript":"Good morning, everyone."}
+{"type":"conversation.item.input_audio_transcription.completed","event_id":"ev_8","item_id":"item_a","content_index":0,"transcript":"Good morning, everyone."}
+{"type":"conversation.item.input_audio_transcription.delta","event_id":"ev_9","item_id":"item_a","content_index":0,"delta":" late"}

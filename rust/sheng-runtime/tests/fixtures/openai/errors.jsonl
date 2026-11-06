@@ -1,0 +1,6 @@
+{"type":"error","event_id":"ev_e1","error":{"type":"invalid_request_error","code":"invalid_api_key","message":"redacted","param":null,"event_id":null}}
+{"type":"error","event_id":"ev_e2","error":{"type":"authentication_error","code":null,"message":"redacted"}}
+{"type":"error","event_id":"ev_e3","error":{"type":"invalid_request_error","code":"model_not_found","message":"redacted"}}
+{"type":"error","event_id":"ev_e4","error":{"type":"invalid_request_error","code":"session_expired","message":"redacted"}}
+{"type":"error","event_id":"ev_e5","error":{"type":"server_error","code":"something_else","message":"redacted"}}
+{"type":"error","event_id":"ev_e6","error":{"type":"invalid_request_error","code":"input_audio_buffer_commit_empty","message":"redacted"}}

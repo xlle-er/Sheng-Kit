@@ -1,0 +1,17 @@
+# Build products and local configuration
+.build/
+.swiftpm/
+target
+dist/
+.DS_Store
+*.xcuserstate
+.env
+.env.*
+*.key
+*.p12
+*.pfx
+node_modules/
+
+# Provenance check output with reference locations (spec author only)
+provenance-detail.txt
+__pycache__/

@@ -1,0 +1,1 @@
+{"serverContent": {"inputTranscription": {"text": "Hello there.", "languageCode": "en"}, "outputTranscription": {"text": "你好。"}, "modelTurn": {"parts": [{"inlineData": {"mimeType": "audio/pcm;rate=24000", "data": "AAAA"}}]}}, "usageMetadata": {"totalTokenCount": 12}}

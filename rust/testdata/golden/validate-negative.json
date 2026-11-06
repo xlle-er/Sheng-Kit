@@ -1,0 +1,146 @@
+[
+  {
+    "case": "valid-both-input",
+    "result": {
+      "ok": true
+    }
+  },
+  {
+    "case": "unknown-top-level-field",
+    "result": {
+      "error": "invalid_configuration",
+      "ok": false
+    }
+  },
+  {
+    "case": "unknown-configuration-field",
+    "result": {
+      "error": "invalid_configuration",
+      "ok": false
+    }
+  },
+  {
+    "case": "unknown-input",
+    "result": {
+      "error": "invalid_configuration",
+      "ok": false
+    }
+  },
+  {
+    "case": "unknown-provider",
+    "result": {
+      "error": "invalid_configuration",
+      "ok": false
+    }
+  },
+  {
+    "case": "empty-api-key",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    }
+  },
+  {
+    "case": "mismatched-credential-kind",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    }
+  },
+  {
+    "case": "unknown-source-language",
+    "result": {
+      "error": "invalid_configuration",
+      "ok": false
+    }
+  },
+  {
+    "case": "unknown-target-language",
+    "result": {
+      "error": "invalid_configuration",
+      "ok": false
+    }
+  },
+  {
+    "case": "custom-proxy-without-url",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    }
+  },
+  {
+    "case": "custom-socks-proxy",
+    "result": {
+      "ok": true
+    }
+  },
+  {
+    "case": "proxy-none",
+    "result": {
+      "error": "invalid_configuration",
+      "ok": false
+    }
+  },
+  {
+    "case": "asr-mt-without-text-credentials",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    }
+  },
+  {
+    "case": "qwen-model-plus",
+    "result": {
+      "ok": true
+    }
+  },
+  {
+    "case": "qwen-model-turbo",
+    "result": {
+      "error": "invalid_configuration",
+      "ok": false
+    }
+  },
+  {
+    "case": "translation-mode-other",
+    "result": {
+      "error": "invalid_configuration",
+      "ok": false
+    }
+  },
+  {
+    "case": "custom-speech-https-endpoint",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    }
+  },
+  {
+    "case": "custom-speech-http-endpoint",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    }
+  },
+  {
+    "case": "azure-non-azure-host",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    }
+  },
+  {
+    "case": "not-json",
+    "result": {
+      "error": "invalid_configuration",
+      "ok": false
+    }
+  },
+  {
+    "case": "oversize-request",
+    "result": {
+      "error": "request_too_large",
+      "ok": false
+    }
+  }
+]

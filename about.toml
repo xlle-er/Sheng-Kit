@@ -1,0 +1,40 @@
+# cargo-about configuration for THIRD_PARTY_NOTICES.md (regenerate with script/notices.sh).
+# Covers what is linked into libsheng_engine.a for the shipped macOS targets; build-only and
+# test-only dependencies are not distributed and are left out.
+accepted = [
+    "Apache-2.0",
+    "MIT",
+    "ISC",
+    "BSD-3-Clause",
+    "Unicode-3.0",
+    "CDLA-Permissive-2.0",
+]
+targets = ["aarch64-apple-darwin", "x86_64-apple-darwin"]
+ignore-build-dependencies = true
+ignore-dev-dependencies = true
+private = { ignore = true }
+
+# ring: new code is ISC (LICENSE-other-bits); code taken from BoringSSL is Apache-2.0
+# (LICENSE-BoringSSL). The top-level LICENSE only points at those two files.
+[ring.clarify]
+license = "Apache-2.0 AND ISC"
+
+[[ring.clarify.files]]
+path = "LICENSE-other-bits"
+license = "ISC"
+checksum = "f025ccfb7dfb6bdfedc75ca0f67acc69e6fb4998143d834f7c2f38a29989680f"
+
+[[ring.clarify.files]]
+path = "LICENSE-BoringSSL"
+license = "Apache-2.0"
+checksum = "005fc765ddc5115da796cca915baa9557abae13ff35e0a47c47affc56f6c414d"
+
+# aec-rs-sys: the bindings are MIT (no license file in the crate); the SpeexDSP sources it
+# compiles and links statically are BSD-3-Clause (speexdsp/COPYING).
+[aec-rs-sys.clarify]
+license = "MIT AND BSD-3-Clause"
+
+[[aec-rs-sys.clarify.files]]
+path = "speexdsp/COPYING"
+license = "BSD-3-Clause"
+checksum = "2654a4264b2bfe298dedc508748d140111840c315cc8eb646a3a68c13fa75b01"

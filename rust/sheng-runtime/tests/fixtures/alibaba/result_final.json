@@ -1,0 +1,4 @@
+{"header": {"task_id": "task-1", "event": "result-generated", "attributes": {}},
+ "payload": {"output": {"sentence": {"sentence_id": 3, "begin_time": 40, "end_time": 980,
+   "text": "早上好，各位。", "heartbeat": false, "sentence_end": true, "words": []}},
+   "usage": {"duration": 2}}}

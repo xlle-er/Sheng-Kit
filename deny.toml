@@ -1,0 +1,44 @@
+# cargo-deny policy (run by script/check.sh). Only the macOS targets SharedKit ships for are
+# checked; dependencies that only exist on other platforms are out of scope.
+
+[graph]
+targets = ["aarch64-apple-darwin", "x86_64-apple-darwin"]
+
+[advisories]
+# Every RustSec vulnerability, unmaintained or unsound notice fails the check. Ignoring one
+# needs an entry here with the advisory id and the reason.
+ignore = []
+
+[licenses]
+# Licenses accepted for anything linked into the library or run while building it.
+allow = [
+    "Apache-2.0",
+    "MIT",
+    "ISC",                 # ring (with Apache-2.0), rustls-webpki, untrusted, libloading
+    "BSD-3-Clause",        # subtle; bindgen (build only); SpeexDSP inside aec-rs-sys
+    "Unicode-3.0",         # ICU4X crates used by url/idna, unicode-ident
+    "CDLA-Permissive-2.0", # webpki-roots (Mozilla root certificate data)
+]
+confidence-threshold = 0.9
+# The workspace crates are Apache-2.0 and not published.
+private = { ignore = true }
+
+[bans]
+# Two semver-incompatible versions of one crate fail the check unless listed below.
+multiple-versions = "deny"
+wildcards = "deny"
+allow-wildcard-paths = true
+skip = [
+    { crate = "base64@0.22.1", reason = "reqwest 0.12 and sheng-runtime use 0.22; hyper-util 0.1.21 moved to 0.23" },
+    { crate = "getrandom@0.2.17", reason = "ring 0.17 still depends on getrandom 0.2" },
+    { crate = "getrandom@0.3.4", reason = "rand_core 0.9 (rand 0.9, used by tungstenite) depends on getrandom 0.3; uuid uses 0.4" },
+    { crate = "syn@2.0.119", reason = "build only: bindgen 0.69 (aec-rs-sys build script) uses syn 2; proc macros use syn 3" },
+    { crate = "shlex@1.3.0", reason = "build only: bindgen 0.69 uses shlex 1, cc uses shlex 2" },
+    { crate = "webpki-roots@0.26.11", reason = "tokio-tungstenite 0.28 depends on 0.26, a compatibility shell over webpki-roots 1" },
+]
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"
+allow-registry = ["https://github.com/rust-lang/crates.io-index"]
+allow-git = []

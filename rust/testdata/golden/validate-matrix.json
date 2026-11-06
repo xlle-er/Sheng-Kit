@@ -1,0 +1,5938 @@
+[
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "appleSpeech",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "alibabaCloud",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "volcanoEngine",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "volcanoEngine",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "volcanoEngine",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "volcanoEngine",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "volcanoEngine",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "volcanoEngine",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "volcanoEngine",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "volcanoEngine",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "volcanoEngine",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "volcanoEngine",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "volcanoEngine",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "volcanoEngine",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "googleGeminiLive",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "tencentCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "tencentCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "tencentCloud",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "tencentCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "tencentCloud",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "tencentCloud",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "tencentCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "tencentCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "tencentCloud",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "tencentCloud",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "tencentCloud",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "tencentCloud",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "baiduTranslate",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "baiduTranslate",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "baiduTranslate",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "baiduTranslate",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "baiduTranslate",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "baiduTranslate",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "baiduTranslate",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "baiduTranslate",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "baiduTranslate",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "baiduTranslate",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "baiduTranslate",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "baiduTranslate",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "openAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "azureOpenAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "xAIRealtime",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "-"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customDashScopeASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "asrMt",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "asrMt",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "apple"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "error": "configuration_invalid",
+      "ok": false
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "followService"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "openAICompatible"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "deepL"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "deepLX"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "xAI"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "zh",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "zh",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "ja",
+    "speechMode": "simultaneous",
+    "target": "en",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "en",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "chatMock"
+  },
+  {
+    "input": "system",
+    "provider": "customOpenAIASR",
+    "result": {
+      "ok": true
+    },
+    "source": "auto",
+    "speechMode": "simultaneous",
+    "target": "original",
+    "text": "chatMock"
+  }
+]

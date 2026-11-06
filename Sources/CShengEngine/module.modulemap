@@ -1,0 +1,5 @@
+module CShengEngine {
+    header "include/sheng_engine.h"
+    link "sheng_engine"
+    export *
+}

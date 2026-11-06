@@ -1,0 +1,21 @@
+{
+  "sourceLanguage": "auto",
+  "targetLanguage": "en",
+  "events": [
+    { "kind": "originalDraft", "utterance": "u-1", "text": "こんにち" },
+    { "kind": "confirmedPair", "utterance": "u-1", "original": "こんにちは。", "translation": "Hello." },
+    { "kind": "originalDraft", "utterance": "u-2", "text": "Bonjour à" },
+    { "kind": "confirmedPair", "utterance": "u-2", "original": "Bonjour à tous.", "translation": "Hello everyone." },
+    { "kind": "confirmedPair", "utterance": 3, "original": "Привет, мир.", "translation": "Hello, world." },
+    { "kind": "originalFinal", "utterance": "u-4", "text": "안녕하세요." },
+    { "kind": "translationFinal", "utterance": "u-4", "text": "Hi there." },
+    { "kind": "confirmedPair", "utterance": null, "original": "مرحبا بكم.", "translation": "Welcome." }
+  ],
+  "expectedRecent": [
+    ["こんにちは。", "Hello."],
+    ["Bonjour à tous.", "Hello everyone."],
+    ["Привет, мир.", "Hello, world."],
+    ["안녕하세요.", "Hi there."],
+    ["مرحبا بكم.", "Welcome."]
+  ]
+}
